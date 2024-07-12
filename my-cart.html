@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart - Shivaji Furniture Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        
+        h2 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ccc;
+        }
+        
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+        
+        .total {
+            margin-top: 20px;
+            text-align: right;
+        }
+        
+        .total span {
+            font-weight: bold;
+        }
+        
+        .checkout-btn {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .checkout-btn:hover {
+            background-color: #555;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My Cart</h1>
+    </header>
+
+    <div class="container">
+        <h2>Items in Your Cart</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Example items in the cart -->
+                <tr>
+                    <td>Modern Sofa</td>
+                    <td>$799</td>
+                    <td>1</td>
+                    <td>$799</td>
+                </tr>
+                <tr>
+                    <td>Wooden Dining Table</td>
+                    <td>$499</td>
+                    <td>2</td>
+                    <td>$998</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="total">
+            <span>Total: $1797</span>
+        </div>
+
+        <a href="#" class="checkout-btn">Proceed to Checkout</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Shivaji Furniture. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+
+
