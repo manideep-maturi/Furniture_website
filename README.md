@@ -18,14 +18,14 @@ The website is designed to provide users with an enjoyable shopping experience a
 ## Technologies Used
 
 - HTML5
-- CSS3 (including Normalize.css and custom styles)
+- CSS3 
 - Font Awesome for icons
 
 ## Installation
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/shivaji-furniture-store.git
+    git clone https://github.com/manideep1387/shivaji-furniture-store.git
     ```
 2. Navigate to the project directory:
     ```sh
